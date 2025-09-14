@@ -24,9 +24,13 @@ I will use official documentation, online tutorials, and reference books. Here a
 
 Books:
 Learn Windows PowerShell in a Month of Lunches by Don Jones and Jeffrey Hicks
+
 Windows PowerShell Cookbook by Lee Holmes
 
-Websites
+Websites:
+
 Microsoft PowerShell Documentation: https://learn.microsoft.com/powershell/
+
 PowerShell GitHub Page: https://github.com/PowerShell/PowerShell
+
 TutorialsPoint PowerShell Guide: https://www.tutorialspoint.com/powershell/index.htm
