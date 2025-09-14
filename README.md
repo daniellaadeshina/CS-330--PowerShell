@@ -34,3 +34,22 @@ Microsoft PowerShell Documentation: https://learn.microsoft.com/powershell/
 PowerShell GitHub Page: https://github.com/PowerShell/PowerShell
 
 TutorialsPoint PowerShell Guide: https://www.tutorialspoint.com/powershell/index.htm
+
+**GETTING STARTED**
+
+**What I needed to do to install PowerShell**
+
+Which edition to use:
+Use PowerShell 7 (pwsh) — it’s the cross-platform, actively maintained edition from Microsoft (recommended for new work).
+
+**Quick install options (pick one for your OS):**
+
+**Windows (GUI / MSI):**
+
+Download the MSI installer from the PowerShell docs/github and run it (be sure to download the windows arm64 msi). Follow the prompts to install. After install, you’ll have the pwsh app available.
+
+**MacOS:**
+
+Download the PKG installer from the PowerShell docs/github and run it (be sure to download the osx arm64 pkg). Follow the prompts to install. After install, you can run PowerShell from Terminal with: pwsh
+
+
