@@ -99,13 +99,16 @@ Alternatively, you can press **F5** to debug/run the script (PowerShell extensio
 
 Single-line comment: start the line with #
 
-**This is a single-line comment
-Write-Output "hi"**
+**This is a single-line comment**
+
+**Write-Output "hi"**
 
 Block comment (multi-line): use <# to start and #> to end
+
 **<#
-  This is a block comment.
-  It can span multiple lines.
+  This is a block comment.**
+  
+  **It can span multiple lines.
 #>**
 
 
