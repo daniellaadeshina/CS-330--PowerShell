@@ -37,7 +37,7 @@ TutorialsPoint PowerShell Guide: https://www.tutorialspoint.com/powershell/index
 
 
 
-**GETTING STARTED**
+**#GETTING STARTED**
 
 **What I needed to do to install PowerShell**
 
@@ -71,7 +71,7 @@ Open the integrated terminal and make sure the shell is PowerShell.
 
 Create a file named **hello.ps1** (or **hello-world.ps1**) and paste:
 
-# hello.ps1 - simple Hello World
+## hello.ps1 - simple Hello World
 **Write-Output "Hello, world!"**
 
 **Why Write-Output?**
@@ -97,7 +97,7 @@ Alternatively, you can press **F5** to debug/run the script (PowerShell extensio
 **How to write comments in PowerShell**
 
 Single-line comment: start the line with #
-# This is a single-line comment
+## This is a single-line comment
 Write-Output "hi"
 
 Block comment (multi-line): use <# to start and #> to end
