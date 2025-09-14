@@ -73,6 +73,7 @@ Create a file named **hello.ps1** (or **hello-world.ps1**) and paste: start the 
 
 
  **hello.ps1 - simple Hello World**
+ 
 **Write-Output "Hello, world!"**
 
 **Why Write-Output?**
