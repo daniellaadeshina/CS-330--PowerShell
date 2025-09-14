@@ -35,12 +35,14 @@ PowerShell GitHub Page: https://github.com/PowerShell/PowerShell
 
 TutorialsPoint PowerShell Guide: https://www.tutorialspoint.com/powershell/index.htm
 
+
+
 **GETTING STARTED**
 
 **What I needed to do to install PowerShell**
 
 Which edition to use:
-Use PowerShell 7 (pwsh) — it’s the cross-platform, actively maintained edition from Microsoft (recommended for new work).
+Use PowerShell 7 (pwsh), it’s the cross-platform, actively maintained edition from Microsoft (recommended for new work).
 
 **Quick install options (pick one for your OS):**
 
@@ -53,3 +55,12 @@ Download the MSI installer from the PowerShell docs/github and run it (be sure t
 Download the PKG installer from the PowerShell docs/github and run it (be sure to download the osx arm64 pkg). Follow the prompts to install. After install, you can run PowerShell from Terminal with: pwsh
 
 
+**Recommended programming environment and why**
+
+Use Visual Studio Code + PowerShell extension.
+Microsoft recommends VS Code with the official PowerShell extension because it gives syntax highlighting, IntelliSense, integrated debugging, and a smooth script-running experience. Since I already have VS Code, I’ll use that.
+
+**How to set it up in VS Code**
+
+Open VS Code, go to Extensions and search PowerShell, then install the official Microsoft extension.
+Open the integrated terminal and make sure the shell is PowerShell.
