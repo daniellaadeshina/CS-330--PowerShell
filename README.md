@@ -22,12 +22,12 @@ Managing Active Directory users and groups in corporate environments.
 **4. Where will you get information about this language when it’s time to start programming in it?**
 I will use official documentation, online tutorials, and reference books. Here are some resources specific to PowerShell:
 
-Books:
+**Books:**
 Learn Windows PowerShell in a Month of Lunches by Don Jones and Jeffrey Hicks
 
 Windows PowerShell Cookbook by Lee Holmes
 
-Websites:
+**Websites:**
 
 Microsoft PowerShell Documentation: https://learn.microsoft.com/powershell/
 
