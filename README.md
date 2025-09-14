@@ -48,11 +48,11 @@ Use PowerShell 7 (pwsh), it’s the cross-platform, actively maintained edition 
 
 **Windows (GUI / MSI):**
 
-Download the MSI installer from the PowerShell docs/github and run it (be sure to download the windows arm64 msi). Follow the prompts to install. After install, you’ll have the pwsh app available.
+Download the MSI installer from the PowerShell docs/github and run it **(be sure to download the windows arm64 msi)**. Follow the prompts to install. After install, you’ll have the pwsh app available.
 
 **MacOS:**
 
-Download the PKG installer from the PowerShell docs/github and run it (be sure to download the osx arm64 pkg). Follow the prompts to install. After install, you can run PowerShell from Terminal with: pwsh
+Download the PKG installer from the PowerShell docs/github and run it **(be sure to download the osx arm64 pkg)**. Follow the prompts to install. After install, you can run PowerShell from Terminal with: pwsh
 
 
 **Recommended programming environment and why**
@@ -63,4 +63,66 @@ Microsoft recommends VS Code with the official PowerShell extension because it g
 **How to set it up in VS Code**
 
 Open VS Code, go to Extensions and search PowerShell, then install the official Microsoft extension.
+
 Open the integrated terminal and make sure the shell is PowerShell.
+
+
+**Hello world: the program you will write**
+
+Create a file named **hello.ps1** (or **hello-world.ps1**) and paste:
+
+# hello.ps1 - simple Hello World
+**Write-Output "Hello, world!"**
+
+**Why Write-Output?**
+Write-Output writes objects to the pipeline and is good for scripts. Write-Host prints to the host directly; either works for a simple display but Write-Output is more "script friendly."
+
+**How to run the program**
+
+In VS Code (recommended):
+
+Open the folder containing **hello.ps1** in VS Code.
+
+Open the integrated terminal (make sure it’s a PowerShell terminal).
+
+Run:
+**.\hello.ps1**
+
+You should see:
+**Hello, world!**
+
+Alternatively, you can press **F5** to debug/run the script (PowerShell extension provides debugging).
+
+
+**How to write comments in PowerShell**
+
+Single-line comment: start the line with #
+# This is a single-line comment
+Write-Output "hi"
+
+Block comment (multi-line): use <# to start and #> to end
+**<#
+  This is a block comment.
+  It can span multiple lines.
+#>**
+
+
+
+**Resources / references**
+
+Microsoft — Install PowerShell on Windows / Linux / macOS (official install docs). 
+Microsoft Learn:https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.5&utm_source=chatgpt.com
+
+Microsoft — Using Visual Studio Code for PowerShell Development (recommended editor & extension). 
+Microsoft Learn:https://learn.microsoft.com/en-us/powershell/scripting/dev-cross-plat/vscode/using-vscode?view=powershell-7.5&utm_source=chatgpt.com
+
+
+Microsoft — Comments & comment-based help (how to write comments). 
+Microsoft Learn:https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comments?view=powershell-7.5&utm_source=chatgpt.com
+
+
+Visual Studio Code — PowerShell language support / debugging. 
+Visual Studio Code:https://code.visualstudio.com/docs/languages/powershell?utm_source=chatgpt.com
+
+
+
