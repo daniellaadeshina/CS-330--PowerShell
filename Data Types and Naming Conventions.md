@@ -6,7 +6,6 @@
 * **Collections / complex types:** PowerShell has arrays (lists), hashtables (dictionaries), PSCustomObject and other .NET types available.
 * **Naming conventions (community / best practice):** Functions/cmdlets use `Verb-Noun` and **PascalCase**; parameters use PascalCase; local variables are commonly camelCase or PascalCase depending on team style (these are style guidelines, enforced by linters/tools — not by the interpreter).
 
----
 
 ##answers to the assignment questions
 
