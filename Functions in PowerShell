@@ -1,0 +1,78 @@
+# **PLP 4 – Functions in PowerShell**
+
+## **Overview**
+In this lab, I learned how to create and use functions in PowerShell.  
+The examples include:
+- A function that multiplies two numbers  
+- A recursive function  
+- A function that splits a string  
+- A test to show pass-by-value vs pass-by-reference  
+
+---
+
+## **Function Syntax**
+Functions in PowerShell use the `function` keyword followed by the name and a code block `{}`.  
+Parameters are declared inside `param()`.
+
+Example:
+```powershell
+function Say-Hello {
+    param($name)
+    Write-Output "Hello, $name!"
+}
+```
+
+Functions can appear anywhere in the script because PowerShell reads all code before running it.
+
+---
+
+## **Functions Used in This Lab**
+
+| Function | Purpose |
+|-----------|----------|
+| `Multiply-Numbers` | Takes two numbers and returns their product |
+| `Get-Factorial` | Recursive function to calculate a factorial |
+| `Split-String` | Splits one string into two halves and returns both |
+| `Add-Five-ByValue` | Adds 5 using pass-by-value |
+| `Add-Five-ByRef` | Adds 5 using pass-by-reference |
+
+---
+
+## **Examples**
+```powershell
+$result1 = Multiply-Numbers 4 5
+$result2 = Get-Factorial 5
+$split = Split-String "PowerShell"
+
+$value1 = 10
+Add-Five-ByValue $value1
+Write-Output "After Add-Five-ByValue: $value1"
+
+$value2 = 10
+Add-Five-ByRef ([ref]$value2)
+Write-Output "After Add-Five-ByRef: $value2"
+```
+
+---
+
+## **Key Concepts**
+
+- **Recursion:** Supported – a function can call itself.  
+- **Multiple parameters:** Supported – can mix data types.  
+- **Multiple returns:** Done by returning an array.  
+- **Pass-by-value:** Default behavior (function gets a copy).  
+- **Pass-by-reference:** Use `[ref]` to modify the original variable.  
+
+---
+
+## **Scoping and Variables**
+- Local variables exist only inside the function.  
+- Global variables can be accessed using `$global:`.  
+- PowerShell uses **static scoping** – variables inside a function don’t affect ones outside it unless explicitly referenced.
+
+---
+
+## **References**
+- Microsoft Docs – [about_Functions](https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_functions)  
+- Microsoft Docs – [about_Scopes](https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_scopes)  
+- Microsoft Docs – [about_Ref](https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_ref)  
